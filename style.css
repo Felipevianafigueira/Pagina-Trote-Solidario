@@ -1,0 +1,13 @@
+body {
+    margin: 0; /*Retira a margem de 10px definida por padrão */
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.menu-principal {
+    background-color: #1e3c72;
+    padding: 15px 0;
+    position: sticky; top: 0; z-index: 1000; /*Garante que o menu sempre ficará na camada de cima*/
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2)
+}
