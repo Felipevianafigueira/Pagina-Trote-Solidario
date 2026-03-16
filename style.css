@@ -50,7 +50,6 @@ body {
 }
 
 .cabecalho {
-   
     background-color: #3e5c92;
     color: white;
     padding: 60px 20px;
@@ -70,17 +69,62 @@ body {
 }
 
 .principal {
-    
     max-width: 900px;
     margin: -40px auto 40px;
     padding: 20px;
 }
 
-.secao {
-    
+.principal p {
+    font-size: 16px;
+}
+
+
+.secao-identidade {
     background: white;
     margin-bottom: 20px;
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
+
+.valores {
+    list-style: none;
+    padding: 0;
+}
+
+.valores li {
+    margin-top: 20px;
+}
+
+.valores p {
+    margin: 16px 0; 
+}
+
+.secao-objetivo {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.secao-datas {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.data {
+    flex: 1;
+    border-left: 5px solid #1e3c72;
+    border-radius: 12px;
+    background-color: #eef3fb;
+    padding: 20px;
+}
+
+
+
