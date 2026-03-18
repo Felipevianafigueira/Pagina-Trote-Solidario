@@ -68,6 +68,11 @@ body {
     color: #ffd700;
 }
 
+img {
+    border-radius: 15px;
+    border: 2px solid #cbdcf7;
+}
+
 .principal {
     max-width: 900px;
     margin: -40px auto 40px;
