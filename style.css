@@ -135,3 +135,56 @@ img {
     margin: 0;
 }
 
+.secao-missao p {
+    line-height: 1.6; /* Altura da linha pois melhora a leitura de textos longos */
+    margin-bottom: 20px;
+    text-align: justify; /* alinhamento de ambos os lados do texto, pra ele não ficar desalinhado */
+
+}
+
+.lista-principios {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-principios li {
+    background-color: #cbdcf7;
+    margin-bottom: 10px;
+    border-left: 5px solid #2a5298;
+    border-radius: 8px;
+    padding: 15px;
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /*Junto as bordas adjacentes, ficando um só */
+    margin-top: 20px;
+    background-color: white;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #2a5298;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.amarelo {
+    width: 25px;
+    height: 25px;
+    background-color: #f6ff00;
+}
+
+.cinza {
+     width: 25px;
+    height: 25px;
+    background-color: gray;
+}
+
