@@ -1,3 +1,5 @@
+/* Pag inicio */
+
 body {
     margin: 0; /*Retira a margem de 10px definida por padrão */
     font-family: 'Segoe UI', sans-serif;
@@ -142,6 +144,8 @@ img {
 
 }
 
+/* Pag introducao */
+
 .lista-principios {
     list-style: none;
     padding: 0;
@@ -155,6 +159,8 @@ img {
     padding: 15px;
     flex: 1;
 }
+
+/* Pag equipes */
 
 table {
     width: 100%;
@@ -230,7 +236,7 @@ th {
     background-color: #e02f1f;
 }
 
-/* Pág prova */
+/* Pág provas e metas*/
 
 .principal-prova {
     max-width: 900px;
