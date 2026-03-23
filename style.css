@@ -188,3 +188,140 @@ th {
     background-color: gray;
 }
 
+.laranja {
+    width: 25px;
+    height: 25px;
+    background-color: #E58A3A;
+}
+
+.laranja-esc {
+    width: 25px;
+    height: 25px;
+    background-color: #C94E1B;
+}
+
+.preto {
+    width: 25px;
+    height: 25px;
+    background-color: #000;
+}
+
+.rosa {
+    width: 25px;
+    height: 25px;
+    background-color: #D93FB5;
+}
+
+.roxo {
+    width: 25px;
+    height: 25px;
+    background-color: #7A4FBF;
+}
+
+.verde {
+    width: 25px;
+    height: 25px;
+    background-color: #5BE13A;
+}
+
+.vermelho {
+    width: 25px;
+    height: 25px;
+    background-color: #e02f1f;
+}
+
+/* Pág prova */
+
+.principal-prova {
+    max-width: 900px;
+    margin: -40px auto 40px;
+    padding: 20px;
+}
+
+.principal-prova section {
+    margin-bottom: 20px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.secao-prova1{
+       background-color: #fff;
+}
+
+.especificacoes {
+    color: #757500;
+}
+
+.container-lista {
+    border: 2px dotted orange;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 213);
+    padding: 25px 25px;
+}
+
+.lista-kit {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-kit li {
+    color: #5a5a00;
+    margin: 20px 0;
+}
+
+.secao-lista{
+    background-color: #fff;
+}
+
+.secao-prova2 {
+    border-left: 5px solid rgb(240, 64, 64);
+    background-color: #faeeee;
+    margin: 0;
+}
+
+.secao-prova2 p {
+    margin: 25px 0;
+}
+
+.secao-prova3 {
+    background-color: #fff;
+}
+
+.secao-prova3 p{
+    margin: 25px 0;
+}
+
+.secao-prova4 {
+    background-color: #fff;
+}
+
+.secao-prova4 p {
+    margin: 25px 0;
+}
+
+.secao-prova567 {
+    background-color: #fffbe6;
+    border-left: 5px solid #ffe100;
+}
+
+.secao-prova567 p {
+    margin: 25px 0;
+}
+
+.rodape {
+    background-color: #1e3c72;
+    border-top: 3px solid #ffe100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.rodape p {
+    margin: 4px;
+    color: #fff;
+}
+
