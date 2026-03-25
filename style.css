@@ -182,6 +182,10 @@ th {
     font-size: 0.85rem;
 }
 
+.secao-equipes tr:hover{
+    background-color: antiquewhite;
+}
+
 .amarelo {
     width: 25px;
     height: 25px;
@@ -279,6 +283,10 @@ th {
 
 .secao-lista{
     background-color: #fff;
+}
+
+.secao-lista tr:hover {
+    background-color: antiquewhite;
 }
 
 .secao-prova2 {
