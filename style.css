@@ -339,3 +339,39 @@ th {
     color: #fff;
 }
 
+/* Pag cronograma */
+
+.timeline {
+    border-left: 3px solid #2a5298;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.evento {
+    margin-bottom: 25px;
+    position: relative; /* dá o poder de flutuar na página sem alterar posição de outros elementos */
+}
+
+.evento::before {/*cria um pseudoelemento no CSS - serve para inserir conteudo informativo ou decorativo logo no inicio de um elemento sem que altere HTML -elemento fantasma */
+    content: ""; /*sem texto*/
+    width: 12px;
+    height: 12px;
+    background: #ff4b2b;
+    border-radius: 50%;
+    position: absolute;
+    left: -28px;
+    top: 4px;
+}
+
+.grid-locais {
+    display: flex;
+    gap: 20px;
+}
+
+.local {
+    flex: 1;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+}
