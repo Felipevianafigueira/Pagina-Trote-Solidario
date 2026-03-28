@@ -1,4 +1,4 @@
-/* Pag inicio */
+/* Pag inicio, configs base */
 
 body {
     margin: 0; /*Retira a margem de 10px definida por padrão */
@@ -85,7 +85,7 @@ img {
     font-size: 16px;
 }
 
-.principal section {
+section {
     background-color: white;
     margin-bottom: 20px;
     padding: 25px;
@@ -375,3 +375,55 @@ th {
     border-radius: 8px;
     border: 1px solid #dee2e6;
 }
+
+/* Pag integracao */
+
+.secao-etapas {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.etapa {
+    border-left: 5px solid #2a5298;
+    border-radius: 12px;
+    background-color: #e5e9ef;
+}
+
+.etapa h4{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.etapa p{
+    margin: 2rem 15px;
+}
+
+.table-etapas td {
+    border: none;
+    color: #757500;
+    padding-bottom: 8px;
+}
+
+.secao-medalhas {
+    background-color: #fffbe6;
+    border-left: 5px solid #ffe100;
+}
+
+.secao-medalhas li, ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.secao-medalhas div {
+    border-left: 5px solid #2a5298;
+    border-radius: 12px;
+    background-color: #e5e9ef;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
