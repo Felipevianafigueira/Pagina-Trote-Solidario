@@ -315,7 +315,7 @@ th {
     margin: 25px 0;
 }
 
-.secao-prova567 {
+.secao-medalhas {       /* Usado em provas.html - formato.html - integracao.html*/
     background-color: #fffbe6;
     border-left: 5px solid #ffe100;
 }
@@ -376,7 +376,7 @@ th {
     border: 1px solid #dee2e6;
 }
 
-/* Pag integracao */
+/* Pag formato */
 
 .secao-etapas {
     background-color: transparent;
@@ -408,11 +408,6 @@ th {
     padding-bottom: 8px;
 }
 
-.secao-medalhas {
-    background-color: #fffbe6;
-    border-left: 5px solid #ffe100;
-}
-
 .secao-medalhas li, ul {
     list-style: none;
     padding: 0;
@@ -425,5 +420,11 @@ th {
     background-color: #e5e9ef;
     padding: 5px 20px;
     margin-bottom: 10px;
+}
+
+/* Pag integracao */
+
+.secao-homenagem li {
+    margin-bottom: 15px;
 }
 
