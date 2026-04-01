@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title> Calculadora - Trote Solidário 2026 </title>
+    </head>
+    <body>
+        <nav class="menu-principal">
+            <div class="menu-container">
+                <a href="index.html" class="logo"> Trote 2026 </a>
+                <ul class="lista">
+                    <li> <a href="index.html"> Inicío </a></li>
+                    <li> <a href="introducao.html"> Introdução </a> </li>
+                    <li> <a href="formato.html"> Formato </a> </li>
+                    <li> <a href="equipes.html"> Equipes </a> </li>
+                    <li> <a href="provas.html"> Provas & Metas </a> </li>
+                    <li> <a href="integracao.html"> Integração </a> </li>
+                    <li> <a href="cronograma.html"> Cronograma </a> </li>
+                    <li> <a href="calculadora.html"> Calculadora </a> </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="principal">
+            <section>
+                <h3> &#x1F9EE; Simulador de Pontos - Itens Avulsos </h3>
+                 <div>
+                    <div class="form-group">
+                        <label> Arroz (5kg) </label> <!--Rotulo caixa de texto-->
+                        <input type="number" value="0" min="0" id="qtdeArroz">
+                    </div>
+                    <div class="form-group">
+                        <label> Feijão (2kg) </label>
+                        <input type="number" value="0" min="0" id="qtdeFeijao">
+                    </div>
+                     <div class="form-group">
+                        <label> Macarrão (500g) </label> <!--Rotulo caixa de texto-->
+                        <input type="number" value="0" min="0" id="qtdeMacarrao">
+                    </div>
+                     <div class="form-group">
+                        <label> Óleo (1L) </label> <!--Rotulo caixa de texto-->
+                        <input type="number" value="0" min="0" id="qtdeOleo">
+                    </div>
+                    <button onclick="calcular()"> Calcular Total </button> <!-- Quando o botão for clicado sera chamado a funçao calcular no JS -->
+                    <div id="result" class="resultado">
+                        Pontuação Total: 0 pontos
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <p> Coordenação Trote Solidário 2026: trotesolidario@facef.br </p>
+            <p> Uni-FACEF - Centro Universitário Municipal de Franca </p>
+        </footer>
+        <script>
+            function calcular(){
+                let qtdeArroz = Number (document.getElementById("qtdeArroz").value)
+                let qtdeFeijao = Number (document.getElementById("qtdeFeijao").value)
+                let qtdeMacarrao = Number (document.getElementById("qtdeMacarrao").value)
+                let qtdeOleo = Number (document.getElementById("qtdeOleo").value)
+
+                let pontos = (qtdeArroz * 10) + (qtdeFeijao * 8) + (qtdeMacarrao * 4) + (qtdeOleo * 2)
+
+                document.getElementById("result").innerText = "Pontuação: " + pontos
+            }
+        </script>
+    </body>
+</html>
