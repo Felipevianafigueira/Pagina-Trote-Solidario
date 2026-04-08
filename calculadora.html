@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <script src="scripts.js"></script>
         <title> Calculadora - Trote Solidário 2026 </title>
     </head>
     <body>
@@ -54,17 +55,5 @@
             <p> Coordenação Trote Solidário 2026: trotesolidario@facef.br </p>
             <p> Uni-FACEF - Centro Universitário Municipal de Franca </p>
         </footer>
-        <script>
-            function calcular(){
-                let qtdeArroz = Number (document.getElementById("qtdeArroz").value)
-                let qtdeFeijao = Number (document.getElementById("qtdeFeijao").value)
-                let qtdeMacarrao = Number (document.getElementById("qtdeMacarrao").value)
-                let qtdeOleo = Number (document.getElementById("qtdeOleo").value)
-
-                let pontos = (qtdeArroz * 10) + (qtdeFeijao * 8) + (qtdeMacarrao * 4) + (qtdeOleo * 2)
-
-                document.getElementById("result").innerText = "Pontuação: " + pontos
-            }
-        </script>
     </body>
 </html>
