@@ -437,7 +437,7 @@ th {
     flex-direction: column;
 }
 
-input {
+input, select {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
